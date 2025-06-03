@@ -1,0 +1,1 @@
+"async json() {\n    const content = await this.text();\n    return JSON.parse(content);\n  }"

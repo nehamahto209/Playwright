@@ -1,0 +1,41 @@
+{
+    "name": "playwright-framework-demo",
+    "version": "1.0.0",
+    "main": "index.js",
+    "type": "commonjs",
+    "scripts": {
+        "prettier:write": "npx prettier --write .",
+        "prettier:check": "npx prettier --check .",
+        "lint": "npx eslint",
+        "list:fix": "eslist --fix",
+        "start": "npx playwright test debug.spec.js",
+        "debug": "npx playwright test debug.spec.js --debug",
+        "report": "npx playwright show-report"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "description": "An example project demonstrating automation of playwright tests using page object design pattern framework and api testing.",
+    "devDependencies": {
+        "globals": "^15.11.0",
+        "prettier": "3.3.3",
+        "prettier-plugin-gherkin": "3.1.0"
+    },
+    "dependencies": {
+        "@playwright/test": "^1.48.0",
+        "dotenv": "^16.5.0",
+        "dotenv-expand": "^12.0.2",
+        "playwright": "^1.52.0"
+    },
+    "directories": {
+        "test": "tests"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/nehamahto209/Playwright.git"
+    },
+    "bugs": {
+        "url": "https://github.com/nehamahto209/Playwright/issues"
+    },
+    "homepage": "https://github.com/nehamahto209/Playwright#readme"
+}
